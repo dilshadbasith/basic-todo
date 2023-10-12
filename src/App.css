@@ -5,16 +5,45 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body{
+  background-color: rgb(43, 12, 12);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+/* CSS for the button */
+/* CSS for the button */
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(45deg, #ff6b6b, #ffb847);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+/* Hover effect */
+.button:hover {
+  background: linear-gradient(45deg, #ff6b6b, #ffcb47);
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
+/* CSS for the input with type text */
+input[type="text"] {
+  width: 30%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus effect for input type text */
+input[type="text"]:focus {
+  border-color: #db34cd;
+  box-shadow: 0 0 5px #d41fc5;
+  outline: none;
+}
+
 

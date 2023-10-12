@@ -28,11 +28,11 @@ function App() {
         value={newItem}
         required
       />
-      <button onClick={addItem}>ADD</button>
+      <button onClick={addItem} className="button">ADD</button>
 
       <ul>
         {items.map((item)=>{
-          return <li key={item.id}>
+          return <li key={item.id} className="list">
             {item.value}
             <button onClick={()=>deleteItem(item.id)}>❌</button>
           </li>
