@@ -45,5 +45,7 @@ input[type="text"]:focus {
   box-shadow: 0 0 5px #d41fc5;
   outline: none;
 }
-
+.list{
+  color: #ccc;
+}
 
