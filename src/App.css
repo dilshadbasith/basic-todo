@@ -48,4 +48,15 @@ input[type="text"]:focus {
 .list{
   color: #ccc;
 }
-
+.dlt{
+  background-color: #FF5733; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  font-size: 14px; /* Font size */
+}
+.dlt:hover{
+  background-color: #f7bcbc;
+}

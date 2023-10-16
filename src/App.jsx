@@ -34,7 +34,7 @@ function App() {
         {items.map((item)=>{
           return <li key={item.id} className="list">
             {item.value}
-            <button onClick={()=>deleteItem(item.id)}>❌</button>
+            <button className="dlt" onClick={()=>deleteItem(item.id)}>❌</button>
           </li>
         })}
       </ul>
