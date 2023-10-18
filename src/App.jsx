@@ -31,10 +31,10 @@ function App() {
       <button onClick={addItem} className="button">ADD</button>
 
       <ul>
-        {items.map((item)=>{
-          return <li key={item.id} className="list">
-            {item.value}
-            <button className="dlt" onClick={()=>deleteItem(item.id)}>❌</button>
+        {items.map((b)=>{
+          return <li key={b.id} className="list">
+            {b.value}&nbsp;&nbsp;
+            <button className="dlt" onClick={()=>deleteItem(b.id)}>❌</button>
           </li>
         })}
       </ul>
