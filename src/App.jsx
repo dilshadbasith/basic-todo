@@ -24,7 +24,7 @@ function App() {
     <>
       <input
         type="text"
-        onChange={(event) => setNewItem(event.target.value)}
+        onChange={(e) => setNewItem(e.target.value)}
         value={newItem}
         required
       />
