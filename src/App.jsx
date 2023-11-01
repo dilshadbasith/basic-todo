@@ -15,7 +15,7 @@ function App() {
     setNewItem("");
   };
 
-  const deleteItem=(id)=>{
+  const deleteTodo=(id)=>{
     const newArr=items.filter(item=>item.id!==id)
     setItems(newArr)
   }
@@ -34,7 +34,7 @@ function App() {
         {items.map((item)=>{
           return <li key={item.id} className="list">
             {item.value}&nbsp;&nbsp;
-            <button className="dlt" onClick={()=>deleteItem(item.id)}>❌</button>
+            <button className="dlt" onClick={()=>deleteTodo(item.id)}>❌</button>
           </li>
         })}
       </ul>
